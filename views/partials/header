@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+
+	<title>Quang Phan</title>
+
+	<link rel="shortcut icon" type="image/gif" href="/images/favicon.gif"/>
+	<link rel="stylesheet" type="text/css" href="/styles/index.css">
+
+	<script type="text/javascript" src="/scripts/lib/pq-typewriter.js" defer></script>
+	<script type="text/javascript" src="/scripts/index.js" defer></script>
+
+</head>
+
+<body>

@@ -1,0 +1,8 @@
+prototype/
+
+## VS Code IDE
+.vscode
+.vs
+
+## Node
+node_modules/
