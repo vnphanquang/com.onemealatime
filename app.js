@@ -29,6 +29,6 @@ const PORT = process.env.PORT || 5000;
 
 //localhost server
 app.listen(PORT, () => {
-  console.log(`Express server running at port: ${port}/ ...`);
+  console.log(`Express server running at port: ${PORT}/ ...`);
 });
 
