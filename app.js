@@ -24,11 +24,11 @@ app.post('*', (req, res) => {
 
 
 //--------------- Server Initiation ---------------
-const hostname = '127.0.0.1';
-const port = 3000;
+// const hostname = '127.0.0.1';
+const PORT = process.env.PORT || 5000;
 
 //localhost server
-app.listen(port, hostname, () => {
+app.listen(PORT, () => {
   console.log(`Express server running at http://${hostname}:${port}/ ...`);
 });
 
