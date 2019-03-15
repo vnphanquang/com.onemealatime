@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
   });
 
   const [firstStep, secondStep, thirdStep, forthStep] = document.querySelectorAll('#demo-steps>img:nth-last-of-type(odd)');
-  const [secondDe, thirdDe, forthDe] = document.querySelectorAll('#demo-description>li');
+  const [firstDe, secondDe, thirdDe, forthDe] = document.querySelectorAll('#demo-description>li');
   const [firstLine, secondLine, thirdLine] = document.querySelectorAll('#demo-steps>img:nth-last-of-type(even)');
   const cursor = document.querySelector('#demo-cursor');
   const signupScreen = document.querySelector('#signup-screen');
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
     });
     [firstLine, secondLine, thirdLine].forEach(line => {
       line.style.opacity = '.5';
-    })
+    });
     [secondDe, thirdDe, forthDe].forEach(de => {
       de.style.opacity = '.2';
     });
