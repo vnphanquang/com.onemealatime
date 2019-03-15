@@ -1,0 +1,8 @@
+{
+  "name": "FoodCorp",
+  "description": "Static Homepage for Project: Foothill 2019 Business Innovation Challenge",
+  "repository": "https://github.com/vnphanquang/com.onemealatime",
+  "keywords": ["node", "express", "heroku", "foodcorp", "foothill", "BIC", "nonprofit"],
+  "website": "http://www.onemealatime.com",
+  "logo": "https://www.dropbox.com/s/ni5bfnj3dynrgbd/heart-apple.svg?dl=0"
+}
