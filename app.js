@@ -15,6 +15,13 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.get('/', (req, res) => {
   res.render('index');
 });
+app.get('*', (req, res) => {
+  res.redirect('/');
+});
+app.post('*', (req, res) => {
+  res.redirect('/');
+});
+
 
 //--------------- Server Initiation ---------------
 const hostname = '127.0.0.1';

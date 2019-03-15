@@ -1,0 +1,447 @@
+.cls-1 {
+  fill: #57d2ff;
+}
+
+.cls-2,
+.cls-49,
+.cls-51,
+.cls-57,
+.cls-59,
+.cls-6,
+.cls-61,
+.cls-64,
+.cls-7,
+.cls-72,
+.cls-74,
+.cls-80 {
+  fill: none;
+}
+
+.cls-2,
+.cls-6,
+.cls-7,
+.cls-80 {
+  stroke: #000;
+}
+
+.cls-2,
+.cls-49,
+.cls-51,
+.cls-57,
+.cls-59,
+.cls-6,
+.cls-61,
+.cls-7,
+.cls-72,
+.cls-74,
+.cls-80 {
+  stroke-miterlimit: 10;
+}
+
+.cls-2,
+.cls-80 {
+  stroke-width: 0.5px;
+}
+
+.cls-3 {
+  fill: #7cfff9;
+}
+
+.cls-4 {
+  fill: #ffb925;
+}
+
+.cls-5 {
+  fill: #f6ff7f;
+}
+
+.cls-6,
+.cls-7,
+.cls-80 {
+  stroke-linecap: round;
+}
+
+.cls-6 {
+  stroke-width: 0.25px;
+}
+
+.cls-7 {
+  stroke-width: 0.125px;
+}
+
+.cls-8 {
+  fill: #cf9f66;
+}
+
+.cls-9 {
+  fill: #89643d;
+}
+
+.cls-10 {
+  fill: #c45c00;
+}
+
+.cls-11 {
+  fill: #c98019;
+}
+
+.cls-12 {
+  fill: #eb9800;
+}
+
+.cls-13 {
+  fill: #d68b00;
+}
+
+.cls-14 {
+  fill: #ebba1d;
+}
+
+.cls-15 {
+  fill: #ffca1f;
+}
+
+.cls-16 {
+  fill: #ffd85e;
+}
+
+.cls-17 {
+  fill: #d96600;
+}
+
+.cls-18 {
+  fill: #ffd03b;
+}
+
+.cls-19 {
+  fill: #ffe38a;
+}
+
+.cls-20 {
+  fill: #ffe38c;
+}
+
+.cls-21 {
+  fill: #fff4d1;
+}
+
+.cls-22 {
+  fill: #fff0c2;
+}
+
+.cls-23,
+.cls-36 {
+  fill: #fff276;
+}
+
+.cls-23 {
+  opacity: 0.51;
+}
+
+.cls-23,
+.cls-29,
+.cls-36,
+.cls-48,
+.cls-49,
+.cls-50,
+.cls-51,
+.cls-56,
+.cls-57,
+.cls-58,
+.cls-59,
+.cls-60,
+.cls-61,
+.cls-71,
+.cls-72,
+.cls-73,
+.cls-74 {
+  isolation: isolate;
+}
+
+.cls-24 {
+  fill: #fff2ff;
+}
+
+.cls-25 {
+  fill: #965030;
+}
+
+.cls-26 {
+  fill: #ffb95c;
+}
+
+.cls-27 {
+  fill: #ffe9cc;
+}
+
+.cls-28 {
+  fill: url(#linear-gradient);
+}
+
+.cls-29 {
+  fill: #ff9100;
+  opacity: 0.47;
+}
+
+.cls-30 {
+  fill: #70270f;
+}
+
+.cls-31 {
+  fill: url(#linear-gradient-2);
+}
+
+.cls-32 {
+  fill: url(#linear-gradient-3);
+}
+
+.cls-33 {
+  fill: #fff0db;
+}
+
+.cls-34 {
+  fill: #ffbc00;
+}
+
+.cls-35 {
+  fill: #fff8f0;
+}
+
+.cls-36 {
+  opacity: 0.24;
+}
+
+.cls-37 {
+  fill: #fff8ed;
+}
+
+.cls-38,
+.cls-52,
+.cls-62,
+.cls-75 {
+  fill: #fff;
+}
+
+.cls-39 {
+  fill: #351207;
+}
+
+.cls-40 {
+  fill: #4a190a;
+}
+
+.cls-41 {
+  fill: #6b240e;
+}
+
+.cls-42 {
+  fill: #009c08;
+}
+
+.cls-43 {
+  fill: #00c40a;
+}
+
+.cls-44 {
+  fill: #1cff28;
+}
+
+.cls-45 {
+  fill: #696;
+}
+
+.cls-46 {
+  fill: #7f4834;
+}
+
+.cls-47 {
+  fill: #f16365;
+}
+
+.cls-48,
+.cls-49,
+.cls-50,
+.cls-51 {
+  font-size: 22px;
+}
+
+.cls-48,
+.cls-50,
+.cls-56,
+.cls-58,
+.cls-60,
+.cls-71,
+.cls-73 {
+  fill: #0188d8;
+}
+
+.cls-48,
+.cls-49,
+.cls-50,
+.cls-51,
+.cls-56,
+.cls-57,
+.cls-58,
+.cls-59,
+.cls-60,
+.cls-61,
+.cls-71,
+.cls-72,
+.cls-73,
+.cls-74 {
+  font-family: Monoton-Regular, Monoton;
+}
+
+.cls-48,
+.cls-49 {
+  letter-spacing: 0.05em;
+}
+
+.cls-49,
+.cls-51,
+.cls-57,
+.cls-59,
+.cls-61,
+.cls-72,
+.cls-74 {
+  stroke: #0188d8;
+  stroke-width: 0.2px;
+}
+
+.cls-50,
+.cls-51 {
+  letter-spacing: 0.049em;
+}
+
+.cls-52 {
+  font-size: 18px;
+  letter-spacing: 0.05em;
+}
+
+.cls-52,
+.cls-62,
+.cls-63,
+.cls-66,
+.cls-75,
+.cls-76,
+.cls-81 {
+  font-family: TitanOne, Titan One;
+}
+
+.cls-53 {
+  fill: url(#linear-gradient-4);
+}
+
+.cls-54 {
+  fill: url(#linear-gradient-5);
+}
+
+.cls-55 {
+  fill: url(#linear-gradient-6);
+}
+
+.cls-56,
+.cls-57,
+.cls-58,
+.cls-59,
+.cls-60,
+.cls-61 {
+  font-size: 6.044px;
+}
+
+.cls-56,
+.cls-57 {
+  letter-spacing: 0.05em;
+}
+
+.cls-58,
+.cls-59 {
+  letter-spacing: 0.05em;
+}
+
+.cls-60,
+.cls-61 {
+  letter-spacing: 0.049em;
+}
+
+.cls-62 {
+  font-size: 8px;
+  letter-spacing: 0.05em;
+}
+
+.cls-63 {
+  font-size: 10.36px;
+  letter-spacing: 0.05em;
+}
+
+.cls-65 {
+  fill: #ff7217;
+}
+
+.cls-66 {
+  font-size: 5px;
+  letter-spacing: 0.05em;
+}
+
+.cls-67 {
+  letter-spacing: 0.03em;
+}
+
+.cls-68 {
+  fill: url(#linear-gradient-7);
+}
+
+.cls-69 {
+  fill: url(#linear-gradient-8);
+}
+
+.cls-70 {
+  fill: url(#linear-gradient-9);
+}
+
+.cls-71,
+.cls-72,
+.cls-73,
+.cls-74 {
+  font-size: 5.569px;
+}
+
+.cls-71,
+.cls-72 {
+  letter-spacing: 0.05em;
+}
+
+.cls-73,
+.cls-74 {
+  letter-spacing: 0.049em;
+}
+
+.cls-75 {
+  font-size: 6px;
+  letter-spacing: 0.05em;
+}
+
+.cls-76 {
+  font-size: 4.772px;
+  letter-spacing: 0.05em;
+}
+
+.cls-77 {
+  fill: #1688c5;
+}
+
+.cls-78 {
+  fill: #3c6d9d;
+}
+
+.cls-79 {
+  fill: #ffb132;
+}
+
+.cls-81 {
+  font-size: 12px;
+}
+
+.cls-82 {
+  fill: #231f20;
+}

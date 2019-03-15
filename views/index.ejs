@@ -3,84 +3,218 @@
 
 <head>
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
 
-	<title>Quang Phan</title>
+  <title>FoodCorp</title>
 
-  <!-- <link rel="shortcut icon" type="image/gif" href="/images/favicon.gif"/> -->
+  <link rel="shortcut icon" type="image/gif" href="/assets/favicon.gif"/>
   <link rel="stylesheet" href="/styles/index.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
 
-  <!-- <script type="text/javascript" src="/scripts/index.js" defer></script> -->
+  <script type="text/javascript" src="/scripts/index.js" defer></script>
 
 </head>
 
 <body>
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a id="foodcorp-logo" class="navbar-brand" href="#">
-          <img src="/assets/FoodCorp.svg" class="img-fluid" alt="logo">
-           <!-- F
-           <img src="/assets/heart-apple.svg" class="img-fluid" alt="apple">
-           ODC
-           <img src="/assets/ramen.svg" alt="ramen">
-           RP -->
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#how-it-work">HOW IT WORKS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#funding">FUNDING</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">CONTACT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">ABOUT</a>
-            </li>
-          </ul>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a id="foodcorp-logo" class="navbar-brand" href="#">
+      <img src="/assets/FoodCorp.svg" class="img-fluid" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-          <form action="/sign-in" method="GET">
-            <button id="signin-btn" class="btn my-2 my-sm-0" type="submit">Sign In</button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#how-it-works">HOW IT WORKS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#funding">FUNDING</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
+      </ul>
+
+      <form action="/sign-in" method="GET">
+        <button id="signin-btn" class="btn my-2 my-sm-0" type="submit">SIGN IN</button>
+      </form>
+    </div>
+  </nav>
+
+  <header class="row">
+    <div id="background-wraps">
+      <div class="background-wrap partner"></div>
+      <div class="background-wrap coporator"></div>
+      <div class="background-wrap volunteer"></div>
+    </div>
+    <div class=" col-lg-6 col-12 panel partner">
+      <div>
+        <div>
+            <img src="/assets/partner.svg" alt="partner">
+            <p>You are a person in need...</p>
+        </div>
+        <p class="content">We care about you!</p>
+        <p class="content">Pick up meals with minimal charge, and give back whatever you can.</p>
+        <form action="/signup/partner" method="get">
+          <label>Become a partner:</label>
+          <button class="btn signup-btns" type="submit">Sign up</button>
         </form>
+      </div>
+    </div>
+    <div class="col-lg-6 col-12 panel coporator">
+      <div>
+        <div>
+            <img src="/assets/coporator.svg" alt="partner">
+            <p>You are a company that gives to community...</p>
         </div>
-      </nav>
+        <p class="content">We need your help!</p>
+          <p class="content">Save unused food after each meal from your caferias or workspaces.</p>
+          <form action="/signup/coporator" method="get">
+            <label>Become a coporator:</label>
+            <button class="btn signup-btns" type="submit">Sign up</button>
+          </form>
+      </div>
+    </div>
+    <div class="col-12 panel volunteer bottom">
+      <img src="/assets/volunteer.svg" alt="volunteer">
+      <p>You want to give more? Become a volunteer:</p>
+      <form action="/signup/volunteer" method="get">
+        <button class="btn signup-btns" type="submit">Sign up</button>
+      </form>
+    </div>
+  </header>
 
-      <header>
-        <!-- <img src="/assets/welcome-background.jpg"  alt="welcome background"> -->
-        <div class="row top">
-          <div class="col-6 panel">
-            <div class="background-wrap partner"></div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, quo!</p>
+  <main>
+    <section id="transition-quote">
+      <h1 class="mx-auto">"The simplest way to better the world is one good deed at a time."</h1>
+      <h2>Matshona Dhliwayo</h2>
+    </section>
+
+    <section id="how-it-works">
+      <h1>HOW IT WORKS</h1>
+      <div id="demo-steps">
+        <img class="img-fluid" src="/assets/userStep.svg" alt="signup">
+        <img class="img-fluid" src="/assets/connect-line.svg" alt="connectline">
+        <img class="img-fluid" src="/assets/requestStep.svg" alt="request">
+        <img class="img-fluid" src="/assets/connect-line.svg" alt="connectline">
+        <img class="img-fluid" src="/assets/searchStep.svg" alt="pickup">
+        <img class="img-fluid" src="/assets/connect-line.svg" alt="connectline">
+        <img class="img-fluid" src="/assets/giveBackStep.svg" alt="back">
+      </div>
+      <div id="demo" class="row justify-content-center mx-auto">
+        <ul class="order-md-last col-md-6 col-12" id="demo-description">
+          <li>Sign up as a partner</li>
+          <li>Search and request available meals in your area</li>
+          <li>Get your meals at a dedicated pickup location</li>
+          <li>Confirm your pickup and give back whatever you can</li>
+        </ul>
+        <div class="order-md-first col-md-6 col-12">
+            <% include partials/computer-demo %>
+        </div>
+      </div>
+    </section>
+
+    <section id="funding">
+      <h1>WHERE DOES YOUR MONEY GO</h1>
+      <div class="row mx-auto justify-content-center">
+        <p class="col-lg-8 col-md-6 col-sm-12">A percentage will be added to our fund, which helps our program and community grow even bigger.</p>
+        <img class="img-fluid" class="col-lg-4 col-md-6 col-sm-12" src="/assets/grow.svg" alt="grow">
+      </div>
+      <div class="row mx-auto justify-content-center">
+        <img class="img-fluid" class="col-lg-4 col-md-6 col-12 order-md-first order-last" src="/assets/community.svg" alt="community">
+        <p class="col-lg-8 col-md-6 col-12 order-md-last order-first">The rest pays your and our gratitude to the volunteers, those that make our program possible in the first place.</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h1>ABOUT</h1>
+      <p class="mx-auto">FoodCorp started as a project by four Foothill College students in the event of the 2019 Business Innovation Challenge, where we proposed our solution to bring ununsed food from workspaces to people in need.</p>
+      <div class="row justify-content-center mx-auto">
+          <div class="members col-lg-3 col-md-6 col-sm-12">
+              <img class="img-fluid" src="/assets/janinaEngels.svg" alt="janina">
+              <h3 class="names">JANINA ENGELS</h1>
+              <p class="roles">Co-Founder and Leader</p>
+            </div>
+            <div class="members col-lg-3 col-md-6 col-sm-12">
+              <img class="img-fluid" src="/assets/delaneyMacDowall.svg" alt="delaney">
+              <h3 class="names">DELANEY MAC DOWALL</h1>
+              <p class="roles">Co-Founder</p>
+            </div>
+            <div class="members col-lg-3 col-md-6 col-sm-12">
+              <img class="img-fluid" src="/assets/davidZarghampour.svg" alt="david">
+              <h3 class="names">DAVID ZARGHAMPOUR</h1>
+              <p class="roles">Co-Founder</p>
+            </div>
+            <div class="members coder col-lg-3 col-md-6 col-sm-12">
+              <a href="https://www.linkedin.com/in/vnphanquang/">
+                <img class="img-fluid" src="/assets/quangPhan.svg" alt="quang">
+              </a>
+              <a href="http://quang.phanvn.com"><h3 class="names">QUANG PHAN</h3></a>
+              <a href="https://github.com/vnphanquang"><p class="roles">Tech Guy</p></a>
+            </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1>CONTACT</h1>
+      <form class="row container mx-auto" action="/contact" method="POST">
+        <fieldset class="col-lg-3 col-small-6 col-12">
+          <legend>(*)You are:</legend>
+          <div class="row">
+            <div class="col-lg-12 col-sm-6 col-12">
+              <input type="radio" name="accountType" id="partner" value="partner">
+              <label for="partner"><span class="dots"><img src="/assets/check.svg" alt="check"></span>partner</label>
+            </div>
+            <div class="col-lg-12 col-sm-6 col-12 mt-lg-3"> 
+              <input type="radio" name="accountType" id="coporator" value="coporator">
+              <label for="coporator"><span class="dots"><img src="/assets/check.svg" alt="check"></span>coporator</label>
+            </div>
+            <div class="col-lg-12 col-sm-6 col-12 mt-lg-3"> 
+              <input type="radio" name="accountType" id="volunteer" value="volunteer">
+              <label for="volunteer"><span class="dots"><img src="/assets/check.svg" alt="check"></span>volunteer</label>
+            </div>
+            <div class="col-lg-12 col-sm-6 col-12 mt-lg-3"> 
+              <input type="radio" name="accountType" id="other" value="other" checked>
+              <label for="other"><span class="dots"><img src="/assets/check.svg" alt="check"></span>other</label>
+            </div>
           </div>
-          <div class="col-6 panel">
-              <div class="background-wrap coporator"></div>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, quo!</p>
-          </div>
-        </div>
-        <div class="row panel bottom">
-            <div class="background-wrap volunteer"></div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, quo!</p>
-        </div>
-      </header>
+        </fieldset>
+        <fieldset class="col-lg-4 col-small-6 col-12">
+          <legend>Your information</legend>
+          <input type="text" name="name" id="name" placeholder="Name">
+          <input type="text" name="company" id="company" placeholder="Company">
+          <input type="text" name="email" id="email" placeholder="Email">
+        </fieldset>
+        <fieldset class="col-lg-5 col-small-12 col-12">
+          <legend>(*)Your message</legend>
+          <textarea name="message" id="message" cols="25" rows="7" placeholder="Tell us about your ideas or comments"></textarea>
+        </fieldset>
+        <button id="contact-btn" class="btn mx-auto" type="submit">SEND MESSAGE</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <div>
+      <p>created by Quang Phan 2019</p>
+    </div>
+  </footer>
 
-      <main>
-          <section></section>
-      </main>
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ut repellat sapiente delectus eos itaque pariatur, nisi tenetur iusto accusamus labore molestias, expedita quaerat incidunt. Soluta sapiente doloremque sed, iste doloribus placeat quos deleniti temporibus fugit ipsum nisi, magnam, fuga in possimus. Molestias magnam quidem optio sed aliquid dolorum ex ut dicta illum rerum provident nulla culpa impedit quibusdam, fugit praesentium corporis facere explicabo nobis perferendis consequuntur nihil! Sunt excepturi facere ad? Libero qui natus non cum iure nostrum cupiditate incidunt neque cumque, earum voluptatibus sequi in, tempora voluptatem vitae saepe eveniet nulla magnam ducimus! Harum fuga necessitatibus illo assumenda.</p>
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
