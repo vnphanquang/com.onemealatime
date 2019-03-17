@@ -55,6 +55,7 @@ header {
   background-position-y: top;
   background-repeat: no-repeat;
   background-size: cover;
+  /* min-height: 937px; */
   height: 100vh;
 }
 header.row {
@@ -65,16 +66,17 @@ header>.panel {
   font-family: 'Titan One', cursive;
   font-size: 2vw;
   color: #00687D;
-  padding: 0px;
+  padding: 0;
   margin: 0;
-  
 }
+
 header>.panel:not(.volunteer) {
   height: 70%;
   padding-top: 76px;
 }
 header>.panel.volunteer {
   height: 25%;
+  position: relative;
 }
 
 .panel img {
@@ -113,15 +115,15 @@ header>.panel.volunteer {
   transform: translate(-50%, 50%);
 }
 .panel>div>div {
-  display: table-row;
+  display: table;
 }
-.panel:not(.volunteer)>div>div>p, .panel:not(.volunteer)>div>div>img {
+.panel>div>div>p, .panel>div>div>img {
   display: table-cell;
   text-align: left;
   vertical-align: middle;
 }
 .panel:not(.volunteer)>div {
-  padding-top: 25px;
+  padding-top: 80px;
 }
 .panel:not(.volunteer)>div>p {
   line-height: 60px;
@@ -151,13 +153,17 @@ header>.panel.volunteer {
   color: #01AFD1 !important; 
 }
 
-.panel.volunteer {
+.panel.volunteer>div {
   width: 80%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   color: #BE7200;
-  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .btn.signup-btns {
@@ -168,12 +174,12 @@ header>.panel.volunteer {
   bottom: 3px;
   margin-left: 20px;
 }
-.panel.volunteer>form>.btn.signup-btns {
+.panel.volunteer>div>form>.btn.signup-btns {
   color: #BE7200 !important;
   border-color: #FF9D38;
 
 }
-.panel.volunteer>form>.btn.signup-btns:hover {
+.panel.volunteer>div>form>.btn.signup-btns:hover {
   color: #87C580 !important;
   background-color: #FF9D38;
 }
@@ -207,10 +213,13 @@ header>.panel.volunteer {
   header>.panel.partner>div {
     padding-top: 76px;
   }
+  header>.panel.coporator>div {
+    padding-top: 30px;
+  }
   header>.panel.volunteer {
     height: 33.3%;
   }
-  .panel.volunteer, .panel.coporator, .panel.partner {
+  .panel.coporator, .panel.partner {
     width: 100%;
   }
   .panel.partner>div>p.content, .panel.coporator>div>p.content {
@@ -226,7 +235,10 @@ header>.panel.volunteer {
     font-size: 1rem;
   }
   header>.panel {
-    font-size: 1rem;
+    font-size: 4vw;
+  }
+  .panel.volunteer>div>form {
+    margin: 20px auto;
   }
 }
 /* -------- TRANSITION-QUOTE -------- */
