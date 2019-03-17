@@ -55,7 +55,7 @@ header {
   background-position-y: top;
   background-repeat: no-repeat;
   background-size: cover;
-  /* min-height: 937px; */
+  min-height: 800px;
   height: 100vh;
 }
 header.row {
